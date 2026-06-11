@@ -1,0 +1,8 @@
+TODO: Replace this placeholder with the final project license before public release.
+
+Recommended choices for code artifacts are MIT, Apache-2.0, or BSD-3-Clause,
+depending on institutional requirements and compatibility with third-party
+baseline code.
+
+This artifact may reference third-party baselines. Those baselines are governed
+by their own licenses and should not be relicensed by this project.

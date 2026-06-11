@@ -1,0 +1,9 @@
+# Core SDMC uses the Python standard library and supports Python >= 3.10.
+#
+# Optional packages below are useful for experiments, external baselines, or
+# local OpenAI-compatible model endpoints.
+openai>=1.0.0
+requests>=2.31.0
+tqdm>=4.66.0
+numpy>=1.24.0
+PyYAML>=6.0.0
