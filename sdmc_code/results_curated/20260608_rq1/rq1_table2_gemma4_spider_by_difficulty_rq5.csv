@@ -1,0 +1,6 @@
+run,dataset,condition,difficulty,N,EX_pct,valid_sql_pct,execution_success_pct,runtime_error_pct,avg_generation_latency_s,avg_execution_latency_s,avg_prompt_tokens,avg_completion_tokens,total_prompt_tokens,total_completion_tokens,total_repair_attempts
+rq1_table2_gemma4_26b_sdmc_spider_clean,spider,SDMC,easy,248,94.35,100.0,100.0,0.0,1.1179,0.0009,2437.06,15.23,604391,3776,3
+rq1_table2_gemma4_26b_sdmc_spider_clean,spider,SDMC,medium,446,80.04,100.0,99.55,0.45,1.2717,0.0222,2731.58,31.83,1218283,14197,7
+rq1_table2_gemma4_26b_sdmc_spider_clean,spider,SDMC,hard,174,81.03,100.0,100.0,0.0,1.3488,0.0138,2777.64,42.67,483309,7425,2
+rq1_table2_gemma4_26b_sdmc_spider_clean,spider,SDMC,extra,166,65.06,100.0,98.8,1.2,1.5808,0.0007,3121.64,63.6,518192,10558,7
+rq1_table2_gemma4_26b_sdmc_spider_clean,spider,SDMC,all,1034,81.24,100.0,99.61,0.39,1.2974,0.0122,2731.31,34.77,2824175,35956,19

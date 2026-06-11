@@ -1,0 +1,31 @@
+schema_version: sdmc-store-v1
+sdmc_version: 0.1.0
+spider_full_path: <SERVER1_DATA_ROOT>/share_data/text_to_sql/spider_full/extracted/spider_data
+bird_full_path: <SERVER1_DATA_ROOT>/share_data/text_to_sql/bird_full
+output_root: outputs
+profiling:
+  max_database_build_seconds: 1800
+  max_table_build_seconds: 300
+  max_column_profile_seconds: 30
+  max_topk_columns_per_table: 30
+  max_topk_columns_per_database: 500
+  max_distinct_before_topk: 200
+  topk_limit: 5
+  sample_limit: 50
+stage_b:
+  prompt_budget_tokens: 8000
+  max_selected_tables: 12
+  max_selected_columns: 120
+  max_value_encoding_nodes: 40
+  max_statistic_nodes: 80
+  max_relationship_edges: 80
+  max_context_items: 160
+  use_bm25: true
+  use_embeddings: false
+  temperature: 0
+  max_output_tokens: 512
+  model: deepseek-v4-pro
+  endpoint: https://api.deepseek.com
+  thinking: disabled
+  max_api_calls_per_run: 10000
+  max_prompt_tokens_for_api: 12000

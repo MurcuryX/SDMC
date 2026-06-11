@@ -1,0 +1,4 @@
+dataset,method,N_done,EX_pct_partial,valid_pct_partial
+Spider dev,HDC_STYLE,167,76.65,100.0
+Spider dev,RAW_SCHEMA,167,60.48,98.8
+Spider dev,SDMC,166,75.3,100.0
